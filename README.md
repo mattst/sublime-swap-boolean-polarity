@@ -1,8 +1,8 @@
 
 ## Sublime Text Plugin - Swap Boolean Polarity
 
-This is a Sublime Text plugin which swaps the polarity of boolean values of any
-text which the current selection or selections are on.
+Swap Boolean Polarity is a Sublime Text plugin which swaps the polarity of
+boolean values of any text which the current selection or selections are on.
 
 The values TRUE/True/true are translated to FALSE/False/false and visa-versa.
 The letter case (UPPER/Title/lower) used by each boolean value is preserved. Any
@@ -17,13 +17,13 @@ especially useful when you want to swap several boolean values, for instance
 while testing, just create multiple selections on the boolean values and hit the
 command's keys.
 
-#### Requirements / Tested:
+#### Requirements / Tested
 
 - Sublime Text v.2 or v.3
 - ST v.2 (Build 2221) - tested and working.
 - ST v.3 (Build 3065) - tested and working.
 
-#### Installation:
+#### Installation
 
 In the near future I will set up a package and release this plugin using
 [PackageControl](https://sublime.wbond.net) the Sublime Text Package Manager,
@@ -35,7 +35,7 @@ For the time being please install manually.
 directory.
 - Put the files from this repository into that directory.
 
-#### Setup:
+#### Setup
 
 Add the keys line below to your user Key Bindings file, altering the actual keys
 specified below to whatever key combination you want to use. `ctrl+shift+b` are
@@ -46,3 +46,26 @@ better.
 {"keys": ["ctrl+shift+b"], "command": "swap_boolean_polarity" },
 ```
 
+#### License
+
+The Sublime Text Plugin - Swap Boolean Polarity is licensed under The MIT
+License (MIT).
+
+Copyright (c) 2014 mattst - https://github.com/mattst
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of
+this software and associated documentation files (the "Software"), to deal in
+the Software without restriction, including without limitation the rights to
+use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
+the Software, and to permit persons to whom the Software is furnished to do so,
+subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.

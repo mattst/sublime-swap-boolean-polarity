@@ -1,22 +1,22 @@
 #
-# Name:           Swap Boolean Polarity
+# Name:             Swap Boolean Polarity
 #
-# File:           SwapBooleanPolarity.py
+# File:             SwapBooleanPolarity.py
 #
-# Requirements:   Plugin for Sublime Text v.2 and v.3
+# Requirements:     Plugin for Sublime Text v.2 and v.3
 #
-# Tested:         ST v.3 Build 3065 - tested and working.
-#                 ST v.2 Build 2221 - tested and working.
+# Tested:           ST v.3 build 3065 - tested and working.
+#                   ST v.2 build 2221 - tested and working.
 #
-# Written by:     mattst
+# Written by:       mattst - https://github.com/mattst
 #
-# Last Edited:    2014-09-30
+# Url:              https://github.com/mattst/sublime-swap-boolean-polarity
 #
-# Version:        0.1
+# Version:          0.1
 #
-# ST Command:     swap_boolean_polarity
+# ST Command:       swap_boolean_polarity
 #
-# Description:    See class description below.
+# Description:      See class description below.
 #
 
 import sublime, sublime_plugin

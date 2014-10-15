@@ -12,23 +12,30 @@
 #
 # Url:              https://github.com/mattst/sublime-swap-boolean-polarity
 #
-# Version:          0.1
+# Version:          0.1.1
 #
 # ST Command:       swap_boolean_polarity
+#
+# Key Bindings:     Use whatever keys you want. The example below is what I
+#                   use but it overrides the default 'Build - Run' keys.
+#
+#    { "keys": ["ctrl+shift+b"], "command": "swap_boolean_polarity" },
 #
 # Description:      See class description below.
 #
 
-import sublime, sublime_plugin
+import sublime
+import sublime_plugin
 
 class SwapBooleanPolarityCommand(sublime_plugin.TextCommand):
     """
     The SwapBooleanPolarityCommand class is a Sublime Text plugin which swaps
-    the polarity of boolean values of any text which the current selection or
-    selections are on. TRUE/True/true are translated to FALSE/False/false and
+    the polarity of boolean values of any text which the cursor(s) or
+    selection(s) are on. TRUE/True/true are translated to FALSE/False/false and
     visa-versa. The letter case (UPPER/Title/lower) used by each boolean value
-    is preserved. All selections which are not on a boolean value are left in
-    place and unaltered.
+    is preserved. Any selections which are not on a boolean value are left in
+    place and unaltered. It is particularly useful when using multiple
+    selections to swap the polarity of several boolean values at the same time.
     """
 
     def run(self, edit, **kwargs):
